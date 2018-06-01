@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jiamao.activitytest.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input"
+        android:hint="enter sth"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jump to activity2"
+        android:id="@+id/jump"/>
+<CheckedTextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="hhhjkkkkmmkkkkkk"/>
+
+    <Spinner
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/spinner"
+        android:spinnerMode="dropdown"
+        android:prompt="@string/app_name"
+        android:dropDownSelector="#00ff00"
+        android:transformPivotY="40dp"
+        android:popupBackground="@mipmap/ic_launcher"
+        android:background="#ff0000">
+        <!--popupBackground弹出下拉框背景颜色，dropDownSelector选中时item颜色-->
+
+    </Spinner>
+
+
+
+
+</LinearLayout>

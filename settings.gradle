@@ -1,0 +1,1 @@
+include ':app', ':servicesample', ':intentsample', ':recyclerviewsample', ':listviewtest', ':surfaceviewtest', ':glidetest', ':viewflippertest', ':activitytest', ':toolbarsample', ':viewpagersample'

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidSample.iml" filepath="$PROJECT_DIR$/AndroidSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activitytest/activitytest.iml" filepath="$PROJECT_DIR$/activitytest/activitytest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glidetest/glidetest.iml" filepath="$PROJECT_DIR$/glidetest/glidetest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intentsample/intentsample.iml" filepath="$PROJECT_DIR$/intentsample/intentsample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listviewtest/listviewtest.iml" filepath="$PROJECT_DIR$/listviewtest/listviewtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerviewsample/recyclerviewsample.iml" filepath="$PROJECT_DIR$/recyclerviewsample/recyclerviewsample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servicesample/servicesample.iml" filepath="$PROJECT_DIR$/servicesample/servicesample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/surfaceviewtest/surfaceviewtest.iml" filepath="$PROJECT_DIR$/surfaceviewtest/surfaceviewtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toolbarsample/toolbarsample.iml" filepath="$PROJECT_DIR$/toolbarsample/toolbarsample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewflippertest/viewflippertest.iml" filepath="$PROJECT_DIR$/viewflippertest/viewflippertest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagersample/viewpagersample.iml" filepath="$PROJECT_DIR$/viewpagersample/viewpagersample.iml" />
+    </modules>
+  </component>
+</project>

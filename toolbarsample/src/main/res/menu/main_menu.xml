@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<group android:id="@+id/group1">
+    <item
+        android:id="@+id/m1"
+        android:icon="@mipmap/ic_launcher"
+        android:title="m1"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/m2"
+        android:title="m2"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:alphabeticShortcut="n"
+        android:id="@+id/m3"
+        android:icon="@mipmap/ic_launcher"
+        android:title="m3"
+        app:showAsAction="ifRoom"/>
+</group>
+
+    <item android:title="Help" android:icon="@mipmap/ic_launcher">
+        <menu>
+            <group android:id="@+id/help_group">
+                <item android:id="@+id/about" android:title="About"    android:alphabeticShortcut="n"/>
+                <item android:id="@+id/exit" android:title="Exit"    android:alphabeticShortcut="n"/>
+            </group>
+            <group android:id="@+id/setting_group">
+                <item android:id="@+id/t1" android:title="About"    android:alphabeticShortcut="n"/>
+                <item android:id="@+id/t2" android:title="Exit"    android:alphabeticShortcut="n"/>
+            </group>
+        </menu>
+    </item>
+
+    <group
+        android:id="@+id/group2"
+        android:enabled="true"
+        android:checkableBehavior="single"
+        android:visible="true"
+        >
+    <item
+
+        android:alphabeticShortcut="n"
+        android:checkable="true"
+        android:id="@+id/m4"
+        android:icon="@mipmap/ic_launcher"
+        android:title="m4"
+       />
+
+    <item
+        android:checkable="true"
+        android:id="@+id/m5"
+        android:title="m5"
+       />
+
+     <item
+         android:alphabeticShortcut="n"
+         android:checkable="true"
+         android:id="@+id/m6"
+         android:title="m6"
+
+       />
+    </group>
+</menu>
